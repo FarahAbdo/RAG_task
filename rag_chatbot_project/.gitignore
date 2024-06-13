@@ -1,0 +1,13 @@
+# Python
+*.pyc
+__pycache__/
+venv/
+
+# Environment variables
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data
+data/predictions.csv
