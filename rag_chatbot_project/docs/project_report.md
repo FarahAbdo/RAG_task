@@ -1,6 +1,3 @@
-
-This file documents your thought process, how you constructed the dataset, why you chose specific evaluation metrics, and what you did to improve the model’s accuracy.
-
 # Project Report: RAG-Powered Chatbot for PDF Document Interaction
 
 ## Introduction
