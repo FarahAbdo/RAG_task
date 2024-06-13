@@ -2,3 +2,4 @@ streamlit
 embedchain
 pandas
 scikit-learn
+python-dotenv
