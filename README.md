@@ -7,5 +7,5 @@ This project is a Retrieval-Augmented Generation (RAG) powered chatbot that answ
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/rag_chatbot_project.git
+   git clone https://github.com/FarahAbdo/RAG_task.git
    cd rag_chatbot_project
