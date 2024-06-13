@@ -1,4 +1,3 @@
-This file provides an overview of the project, setup instructions, usage, and other relevant information.
 
 # RAG-Powered Chatbot Project
 
