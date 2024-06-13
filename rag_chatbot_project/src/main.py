@@ -46,19 +46,15 @@ import os
 import tempfile
 import streamlit as st
 
-try:
-    from dotenv import load_dotenv
-except ModuleNotFoundError as e:
-    st.error("The required module 'dotenv' is not installed. Please install it using 'pip install python-dotenv'.")
-    raise e
-
 from embedchain_config import embedchain_bot
 
-load_dotenv()
+# Set the OpenAI API Key directly (not recommended for production use)
+# openai_access_token = "your_openai_api_key"
+
+# Or use environment variables (recommended)
+openai_access_token = os.getenv("OPENAI_API_KEY")
 
 st.title("Chat with PDF")
-
-openai_access_token = os.getenv("OPENAI_API_KEY")
 
 if openai_access_token:
     db_path = tempfile.mkdtemp()
@@ -99,5 +95,6 @@ if openai_access_token:
             st.error(f"Error generating answer: {e}")
 
 st.markdown("Built by Farah")
+
 
 
