@@ -45,7 +45,6 @@
 import os
 import tempfile
 import streamlit as st
-
 from embedchain_config import embedchain_bot
 
 # Set the OpenAI API Key directly (not recommended for production use)
@@ -95,6 +94,7 @@ if openai_access_token:
             st.error(f"Error generating answer: {e}")
 
 st.markdown("Built by Farah")
+
 
 
 
